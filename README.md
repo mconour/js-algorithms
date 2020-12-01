@@ -1,2 +1,1 @@
-# js-algorithms
-Problems &amp; Solutions
+# Problems &amp; Solutions for JavaScript Algorithms 
