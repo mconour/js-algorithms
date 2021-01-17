@@ -1,3 +1,3 @@
 # String Reversal
 
-Given a string of characters as input, write a function that returns it with the characters reversed.testinga
+Given a string of characters as input, write a function that returns it with the characters reversed.
