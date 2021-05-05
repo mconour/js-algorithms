@@ -25,8 +25,6 @@ const isPalindrome = string => {
 	return stringCharacters.join("") === stringCharacters.reverse().join("");
 };
 
-sfsfss
-
 mocha.setup("bdd");
 const {
     assert
