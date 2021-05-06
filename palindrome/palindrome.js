@@ -15,7 +15,7 @@ const isPalindrome = string => {
 	const stringCharacters = string
 		.toLowerCase()
 		.split("")
-		.reduce(
+		.reduce( 
 			(characters, character) =>
 				validCharacters.indexOf(character) > -1
 					? characters.concat(character)
