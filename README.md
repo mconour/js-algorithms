@@ -22,7 +22,7 @@ const reversedString = reverseString("Hello, world!");
 console.log(reversedString); // Outputs: "!dlrow ,olleH"
 ```
 
-[Click here to view the code for String Reversal](https://github.com/mconour/js-algorithms/blob/main/string-reversal.js)
+[Click here to view the code for String Reversal](https://github.com/mconour/js-algorithms/tree/main/StringReversal)
 
 ## Palindrome
 
@@ -35,7 +35,7 @@ const isPalindrome = checkPalindrome("racecar");
 console.log(isPalindrome); // Outputs: true
 ```
 
-[Click here to view the code for Palindrome](https://github.com/mconour/js-algorithms/blob/main/palindrome.js)
+[Click here to view the code for Palindrome](https://github.com/mconour/js-algorithms/tree/main/palindrome)
 
 ## Contribution
 
