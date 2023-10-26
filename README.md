@@ -1,4 +1,3 @@
-```markdown
 # Popular JavaScript Algorithm Questions 
 
 Welcome to the JavaScript Algorithms repository! This repository contains popular JavaScript algorithm questions and their solutions. Each algorithm is implemented in JavaScript, and I've provided clear explanations and examples to help you understand and learn these common algorithmic problems.
@@ -42,4 +41,3 @@ console.log(isPalindrome); // Outputs: true
 I welcome contributions to this repository! If you have additional algorithm solutions or would like to improve the existing code, please follow the [contribution guidelines](CONTRIBUTING.md).
 
 Happy coding!
-```
