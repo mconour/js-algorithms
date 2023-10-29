@@ -1,4 +1,4 @@
-# String Reversal Solutions
+# String Reversal
 
 This repo provides three different solutions to reverse a string in JavaScript.
 
