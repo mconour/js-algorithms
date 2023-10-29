@@ -8,7 +8,7 @@ Feel free to explore, contribute, and enhance your coding skills through these c
 
 1. [String Reversal](#string-reversal)
 2. [Palindrome](#palindrome)
-3. More to come!
+3. [Fizz Buzz](#fizz-buzz)
 
 ## String Reversal
 
@@ -35,6 +35,36 @@ console.log(isPalindrome); // Outputs: true
 ```
 
 [Click here to view the code for Palindrome](https://github.com/mconour/js-algorithms/tree/main/palindrome)
+
+## Fizz Buzz
+
+The **Fizz Buzz** algorithm is a classic programming problem. It prints the numbers from 1 to 100, but for multiples of 3, it prints "Fizz" instead of the number, and for multiples of 5, it prints "Buzz" instead of the number. For numbers which are multiples of both 3 and 5, it prints "FizzBuzz."
+
+### Usage:
+
+```javascript
+fizzBuzz();
+// Outputs:
+// 1
+// 2
+// Fizz
+// 4
+// Buzz
+// Fizz
+// 7
+// 8
+// Fizz
+// Buzz
+// 11
+// Fizz
+// 13
+// 14
+// FizzBuzz
+// 16
+// ...
+```
+
+[Click here to view the code for Fizz Buzz](https://github.com/mconour/js-algorithms/tree/main/fizzBuzz)
 
 ## Contribution
 
