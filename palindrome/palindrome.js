@@ -13,18 +13,27 @@
   
 
 // Solution 2
+
+// Define a function called isPalindrome, which takes a single argument called 'string'
 const isPalindrome = string => {
+	// Define a constant array 'validCharacters' containing all lowercase letters from 'a' to 'z'
 	const validCharacters = "abcdefghijklmnopqrstuvwxyz".split("");
+
+	// Convert the input 'string' to lowercase and split it into an array of characters
 	const stringCharacters = string
 		.toLowerCase()
 		.split("")
 		.reduce( 
+			// Use the reduce method to filter out characters that are not in 'validCharacters' array
 			(characters, character) =>
 				validCharacters.indexOf(character) > -1
 					? characters.concat(character)
 					: characters,
+			// Initialize the 'characters' accumulator as an empty array
 			[]
 		);
+
+	// Join the filtered characters into a single string and compare it with its reverse
 	return stringCharacters.join("") === stringCharacters.reverse().join("");
 };
 
