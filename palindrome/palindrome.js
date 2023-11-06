@@ -1,16 +1,15 @@
 // Solution 1
-
-/*const isPalindrome = str => {
-
-    
-    const cleaned = str.replace(/\W/g, "").toLowerCase();
-    return (cleaned === cleaned.split("").reverse().join(""));
-}*/
-
+const isPalindrome = string => {
+    // Remove non-alphabetic characters and convert to lowercase
+    const cleanedString = string.toLowerCase().replace(/[^a-z]/g, '');
+  
+    // Check if the cleaned string is equal to its reverse
+    return cleanedString === cleanedString.split('').reverse().join('');
+  };
+  
 
 // Solution 2
-
-const isPalindrome = string => {
+/* const isPalindrome = string => {
 	const validCharacters = "abcdefghijklmnopqrstuvwxyz".split("");
 	const stringCharacters = string
 		.toLowerCase()
@@ -23,7 +22,7 @@ const isPalindrome = string => {
 			[]
 		);
 	return stringCharacters.join("") === stringCharacters.reverse().join("");
-};
+}; */
 
 mocha.setup("bdd");
 const {
