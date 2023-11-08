@@ -1,13 +1,13 @@
 // Solution 1
-const strReversal = str => str.split("").reverse().join("");
+/* const strReversal = str => str.split("").reverse().join(""); */
 
 
 // Solution 2
-const strReversal = str => {
+/* const strReversal = str => {
 	let result = "";
 	for (let character of str) result = character + result;
 	return result;
-}
+} */
 
 
 // Solution 3
