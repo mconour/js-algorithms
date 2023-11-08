@@ -1,10 +1,8 @@
 // Solution 1
-
 const strReversal = str => str.split("").reverse().join("");
 
 
 // Solution 2
-
 const strReversal = str => {
 	let result = "";
 	for (let character of str) result = character + result;
@@ -13,7 +11,6 @@ const strReversal = str => {
 
 
 // Solution 3
-
 const strReversal = str => str.split("").reduce((result, character) => character + result);
 
 
