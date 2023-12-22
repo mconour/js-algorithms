@@ -1,11 +1,38 @@
 # Integer Reversal
 
-The **Integer Reversal** algorithm is designed to reverse a given integer. It takes an integer as input and returns the integer with its digits reversed.
+This is a JavaScript program that reverses an integer. Reversing an integer means converting it into its reversed form.
 
-### Usage:
+## Solution
 
 ```javascript
-const reversedInteger = reverseInteger(12345);
-console.log(reversedInteger); // Outputs: 54321
+const reverseInteger = (num) => {
+    const reversed = parseInt(num.toString().split('').reverse().join(''));
+    return Math.sign(num) * reversed;
+};
+```
 
-Feel free to adjust the `integerReversal` function or create additional test cases to suit your specific needs. This code serves as a simple example of how to approach the Fizz Buzz problem in JavaScript.
+## Usage
+
+This program provides a `reverseInteger` function that takes an integer as input and returns its reversed form. You can use it as follows:
+
+```javascript
+const reversed = reverseInteger(12345);
+console.log(reversed); // Output: 54321
+```
+
+## Example
+
+```javascript
+console.log(reverseInteger(12345)); // Output: 54321
+console.log(reverseInteger(-9876)); // Output: -6789
+```
+
+## Testing
+
+This code includes testing using a testing framework like Mocha and Chai. The test suite checks the `reverseInteger` function with various inputs to ensure it behaves correctly.
+
+To run the tests, use the following command:
+
+```javascript
+mocha.run();
+```
