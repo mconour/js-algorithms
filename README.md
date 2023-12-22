@@ -9,6 +9,7 @@ Feel free to explore, contribute, and enhance your coding skills through these c
 1. [String Reversal](#string-reversal)
 2. [Palindrome](#palindrome)
 3. [Fizz Buzz](#fizz-buzz)
+4. [Integer Reversal](#integer-reversal)
 
 ## String Reversal
 
@@ -66,8 +67,18 @@ fizzBuzz();
 
 [Click here to view the code for Fizz Buzz](https://github.com/mconour/js-algorithms/tree/main/fizzBuzz)
 
-## Contribution
+## Integer Reversal
 
-I welcome contributions to this repo! If you have additional algorithm solutions or would like to improve the existing code, please follow the [contribution guidelines](CONTRIBUTING.md).
+The **Integer Reversal** algorithm is designed to reverse a given integer. It takes an integer as input and returns the integer with its digits reversed.
 
-Happy coding!
+### Usage:
+
+```javascript
+const reversedInteger = reverseInteger(12345);
+console.log(reversedInteger); // Outputs: 54321
+```
+
+[Click here to view the code for Integer Reversal](https://github.com/mconour/js-algorithms/tree/main/integerReversal)
+```
+
+I added a section for the Integer Reversal algorithm, including a brief description, usage example, and a link to the code repository for it.
