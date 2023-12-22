@@ -80,5 +80,3 @@ console.log(reversedInteger); // Outputs: 54321
 
 [Click here to view the code for Integer Reversal](https://github.com/mconour/js-algorithms/tree/main/integerReversal)
 ```
-
-I added a section for the Integer Reversal algorithm, including a brief description, usage example, and a link to the code repository for it.
