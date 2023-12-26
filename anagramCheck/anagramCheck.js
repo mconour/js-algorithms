@@ -1,5 +1,3 @@
-// Solution 1
-
 /**
  * Function to check if two strings are anagrams.
  * @param {string} str1 - The first input string.
