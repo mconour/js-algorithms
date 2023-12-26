@@ -1,3 +1,6 @@
+Certainly! Here's the updated README file with the Anagram Checker added:
+
+```markdown
 # Popular JavaScript Algorithm Questions 
 
 Welcome to the JavaScript Algorithms repository! This repo contains popular JavaScript algorithm questions and their solutions. Each algorithm is implemented in JavaScript, and I've provided clear explanations and examples to help you understand and learn these common algorithmic problems.
@@ -10,6 +13,7 @@ Feel free to explore, contribute, and enhance your coding skills through these c
 2. [Palindrome](#palindrome)
 3. [Fizz Buzz](#fizz-buzz)
 4. [Integer Reversal](#integer-reversal)
+5. [Anagram Checker](#anagram-checker)
 
 ## String Reversal
 
@@ -79,3 +83,18 @@ console.log(reversedInteger); // Outputs: 54321
 ```
 
 [Click here to view the code for Integer Reversal](https://github.com/mconour/js-algorithms/tree/main/integerReversal)
+
+## Anagram Checker
+
+The **Anagram Checker** algorithm checks if two given strings are anagrams of each other. Anagrams are words or phrases formed by rearranging the letters of another, such as "listen" and "silent."
+
+### Usage:
+
+```javascript
+const areAnagrams = checkAnagrams("listen", "silent");
+console.log(areAnagrams); // Outputs: true
+```
+
+[Click here to view the code for Anagram Checker](https://github.com/mconour/js-algorithms/tree/main/anagramCheck)
+
+
