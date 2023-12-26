@@ -1,6 +1,6 @@
 # Popular JavaScript Algorithm Questions
 
-Welcome to the JavaScript Algorithms repository! This repo contains popular JavaScript algorithm questions and their solutions. Each algorithm is implemented in JavaScript, and I've provided clear explanations and examples to help you understand and learn these common algorithmic problems.
+This repo contains popular JavaScript algorithm questions and their solutions. Each algorithm is implemented in JavaScript, and I've provided clear explanations and examples to help you understand and learn these common algorithmic problems.
 
 Feel free to explore, contribute, and enhance your coding skills through these challenges. Alternative approaches will be attempted along with their tradeoffs and runtime complexities.
 
