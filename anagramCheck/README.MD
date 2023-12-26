@@ -1,6 +1,3 @@
-Certainly! Here's a README file for the Anagram Checker algorithm:
-
-```markdown
 # Anagram Checker
 
 This is a JavaScript program that checks if two strings are anagrams of each other. An anagram is a word or phrase formed by rearranging the letters of another.
